@@ -3,7 +3,7 @@ import ast
 import re
 details={}
 password="admin"
-path="C:/Users/sudipapu/Desktop/Training/Atm.txt"
+path="File path of Atm.txt"
 def readdetails():
 	file=open(path,"r")
 	for line in file:
